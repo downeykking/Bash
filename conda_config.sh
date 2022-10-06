@@ -1,4 +1,4 @@
-echo 'export PATH=$PATH:/home/xzjin/anaconda3/bin' >> $HOME/.bashrc
+echo 'export PATH=$PATH:$HOME/anaconda3/bin' >> $HOME/.bashrc
 source $HOME/.bashrc
 conda init
 conda create -n dl39 python=3.9
