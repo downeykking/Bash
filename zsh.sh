@@ -5,6 +5,6 @@ git clone https://gitclone.com/github.com/zsh-users/zsh-autosuggestions.git
 git clone https://gitclone.com/github.com/wting/autojump.git
 cd autojump
 ./install.py
-source $HOME/.zhsrc
+source $HOME/.zshrc
 chsh -s /bin/zsh
 
