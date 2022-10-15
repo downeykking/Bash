@@ -60,6 +60,22 @@ Some bash scripts in linux
    pip install dgl-${CUDA} dglgo -f https://data.dgl.ai/wheels/repo.html
    ```
 
+
+6. (optional) change shell to zsh
+    
+    ```
+    cat zsh.txt > $HOME/.zshrc
+    mkdir -p $HOME/download/zsh
+    cd $HOME/download/zsh
+    git clone https://gitclone.com/github.com/zsh-users/zsh-autosuggestions.git
+    git clone https://gitclone.com/github.com/wting/autojump.git
+    cd autojump
+    ./install.py
+    source $HOME/.zhsrc
+    chsh -s /bin/zsh
+    ```
+
+
 # How to run
 
 #### Step 1: Git Configure
@@ -76,3 +92,4 @@ Some bash scripts in linux
 - pip_config.sh
 - torch_install.sh
 - pyg_dgl_install.sh
+- (optional) zsh.sh
