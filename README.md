@@ -10,11 +10,14 @@ Some bash scripts in linux
 
    `git config --global user.email "email"`
 
-   `ssh-keygen -t rsa -C "email"`
+   `ssh-keygen -t rsa -C "pc name or email"`
 
    upload `cat $HOME/.ssh/id_rsa.pub` to github **ssh and gpg keys**
 
    test `ssh git@github.com`
+
+   and then copy the `public key` of the local host to the `authorized_keys` file of the remote host
+   `ssh-copy-id -i ~/.ssh/id_rsa.pub user@server`
 
 2. conda config
 
